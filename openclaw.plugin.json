@@ -1,0 +1,15 @@
+{
+  "id": "costclaw",
+  "name": "CostClaw",
+  "description": "Real-time LLM cost tracking and local dashboard for OpenClaw. Privacy-first — all data stays on your machine.",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "port": {
+        "type": "number",
+        "description": "Port for the local dashboard server (default: 3333)"
+      }
+    }
+  }
+}
