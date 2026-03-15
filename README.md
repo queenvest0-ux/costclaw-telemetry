@@ -47,20 +47,26 @@ CostClaw fixes all of this.
 
 ---
 
-## Install (60 seconds)
+## Install (2 commands)
 
 ```bash
-git clone https://github.com/Aperturesurvivor/costclaw-telemetry.git
-cd costclaw-telemetry
-npm install
-npm run build
-openclaw plugins install -l .
+openclaw plugins install costclaw-telemetry
 openclaw gateway restart
 ```
 
 Open **http://localhost:3333** in your browser. That's it.
 
 **Requirements:** [OpenClaw](https://github.com/openclaw/openclaw) installed and running. Node.js 18+.
+
+### Alternative: install from source
+
+```bash
+git clone https://github.com/Aperturesurvivor/costclaw-telemetry.git
+cd costclaw-telemetry
+npm install && npm run build
+openclaw plugins install -l .
+openclaw gateway restart
+```
 
 ---
 
